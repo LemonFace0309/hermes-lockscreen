@@ -1,0 +1,2 @@
+wall wall-dawn wall-day wall-dusk veil blue clear gap-same gap-turn receipt-canvas stamp-canvas tail-left tail-right
+typing-turn typing-same fade-mask avatar audio-me audio-them tapback-me tapback-them tapback-hole

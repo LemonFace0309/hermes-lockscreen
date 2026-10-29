@@ -1,0 +1,161 @@
+{
+  "deliveredW" : 143.08800000000002,
+  "hintPxPerUnit" : 0.38688,
+  "jumboPxPerEmoji" : 119.03999999999999,
+  "mark" : "",
+  "mediumScale" : 1.0349244855546893,
+  "monoPxPerUnit" : 0.6775857591823663,
+  "namePxPerUnit" : 0.46199029035161332,
+  "otherUnits" : 60,
+  "pxPerUnit" : 0.50592000000000004,
+  "readW" : 80.090999999999994,
+  "smallPxPerUnit" : 0.32736000000000004,
+  "smallSpace" : 9.1740000000000013,
+  "tailBox" : {
+    "h" : 66,
+    "inset" : 62,
+    "w" : 82
+  },
+  "tapback" : {
+    "anchorX" : 88,
+    "anchorY" : 56,
+    "emojiDX" : -24,
+    "emojiDY" : -25,
+    "h" : 144,
+    "w" : 144
+  },
+  "typing" : {
+    "below" : 32,
+    "bubbleHeight" : 110,
+    "sameHeight" : 144,
+    "turnHeight" : 162
+  },
+  "widePattern" : "\\p{Extended_Pictographic}\\x{FE0F}?|[\\p{Han}\\p{Hiragana}\\p{Katakana}\\p{Hangul}]",
+  "wideUnits" : 100,
+  "widthClasses" : [
+    {
+      "pattern" : "[\\`ijl\\|]",
+      "units" : 22
+    },
+    {
+      "pattern" : "[\\!\\(\\)I\\[\\]]",
+      "units" : 26
+    },
+    {
+      "pattern" : "[ \\'\\,\\.\\:\\;‘’·]",
+      "units" : 28
+    },
+    {
+      "pattern" : "[f]",
+      "units" : 30
+    },
+    {
+      "pattern" : "[t]",
+      "units" : 32
+    },
+    {
+      "pattern" : "[\\\/\\\\r\\{\\}]",
+      "units" : 33
+    },
+    {
+      "pattern" : "[\\*•]",
+      "units" : 35
+    },
+    {
+      "pattern" : "[\\-]",
+      "units" : 39
+    },
+    {
+      "pattern" : "[°]",
+      "units" : 40
+    },
+    {
+      "pattern" : "[\\\"“”]",
+      "units" : 43
+    },
+    {
+      "pattern" : "[z]",
+      "units" : 48
+    },
+    {
+      "pattern" : "[\\_svy–]",
+      "units" : 50
+    },
+    {
+      "pattern" : "[Jkx]",
+      "units" : 52
+    },
+    {
+      "pattern" : "[aceéèáàçä]",
+      "units" : 54
+    },
+    {
+      "pattern" : "[\\#\\$0123456789\\?Lhnuñü]",
+      "units" : 56
+    },
+    {
+      "pattern" : "[FTgoö]",
+      "units" : 57
+    },
+    {
+      "pattern" : "[bdpq]",
+      "units" : 59
+    },
+    {
+      "pattern" : "[\\+\\<\\=\\>\\^\\~×]",
+      "units" : 60
+    },
+    {
+      "pattern" : "[EVXZ]",
+      "units" : 61
+    },
+    {
+      "pattern" : "[\\&]",
+      "units" : 63
+    },
+    {
+      "pattern" : "[APSY]",
+      "units" : 65
+    },
+    {
+      "pattern" : "[K]",
+      "units" : 67
+    },
+    {
+      "pattern" : "[BR]",
+      "units" : 69
+    },
+    {
+      "pattern" : "[D]",
+      "units" : 70
+    },
+    {
+      "pattern" : "[CHNU]",
+      "units" : 72
+    },
+    {
+      "pattern" : "[GOQw]",
+      "units" : 76
+    },
+    {
+      "pattern" : "[\\@]",
+      "units" : 80
+    },
+    {
+      "pattern" : "[m]",
+      "units" : 85
+    },
+    {
+      "pattern" : "[M]",
+      "units" : 87
+    },
+    {
+      "pattern" : "[W]",
+      "units" : 93
+    },
+    {
+      "pattern" : "[\\%—…]",
+      "units" : 100
+    }
+  ]
+}

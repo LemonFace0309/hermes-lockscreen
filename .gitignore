@@ -1,0 +1,8 @@
+build/
+.local/
+*.unsigned.shortcut
+node_modules/
+.DS_Store
+assets/raw-*.png
+assets/preview-*.png
+__pycache__/
