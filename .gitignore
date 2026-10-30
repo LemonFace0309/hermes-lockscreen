@@ -6,3 +6,4 @@ node_modules/
 assets/raw-*.png
 assets/preview-*.png
 __pycache__/
+mac/.build/

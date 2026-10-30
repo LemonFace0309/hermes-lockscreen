@@ -5,6 +5,14 @@ whenever your agent texts you. You can read the reply without unlocking your pho
 
 ![Four Lock Screens: a long chat, the agent typing, a voice note, and a brand new chat](assets/preview.png)
 
+## Two ways to set it up
+
+- **iPhone only** (the steps below). The Shortcuts app draws the chat on your iPhone. Each update takes about half a
+  minute, and your own messages can show a few minutes late.
+- **With a Mac** ([mac/README.md](mac/README.md)). If you have a Mac that stays on and has your Messages, it reads
+  the chat straight from Messages and draws it. The iPhone only fetches the picture, over Tailscale, so the Lock
+  Screen is an exact copy of the chat, ready in under a second.
+
 ## Quick start
 
 Paste this prompt into the agent of your choice:
@@ -13,9 +21,11 @@ Paste this prompt into the agent of your choice:
 Help me set up Hermes Lock Screen on my iPhone. The project is here:
 https://github.com/LemonFace0309/hermes-lockscreen
 
-Read README.md and SETUP.md in that repo first. Then guide me through the setup:
-- Before anything else, ask me which iOS version my iPhone runs, and the exact
-  name of my AI agent's contact in Messages.
+Read README.md, SETUP.md and mac/README.md in that repo first. Then guide me
+through the setup:
+- Before anything else, ask me which iOS version my iPhone runs, the exact
+  name of my AI agent's contact in Messages, and whether I have a Mac that
+  stays on with my Messages. If I do, follow mac/README.md.
 - Give me one step at a time, with the exact buttons to tap.
 - Wait until I say it worked before you give me the next step.
 - If something fails, ask me for a screenshot and use the "If something goes
@@ -131,6 +141,8 @@ The three shortcuts aren't edited by hand. `tools/build_shortcut.py` writes them
   like iOS 26: bursts of messages, reactions, voice notes, time zones, missed automations.
 - `python3 tools/profile_steps.py` shows how many steps, file reads and saves each kind of update takes.
 - [docs/how-it-works.md](docs/how-it-works.md) explains the design, what iOS 26 allows, and what's slow.
+- `mac/` is the Mac version: a Swift reader and server (`swift build --package-path mac`), `install.sh`, and
+  `build_phone_shortcut.py`, which builds the iPhone's Hermes Lock Screen for it. See [mac/README.md](mac/README.md).
 
 ## License
 

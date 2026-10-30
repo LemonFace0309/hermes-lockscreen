@@ -9,6 +9,10 @@ Lock Screen for the answer. Three shortcuts do it, all in **iCloud Drive › Sho
 | **Hermes Chat Renderer** | Keeps the chat and draws it. You never open it. |
 | **Talk to Hermes** | For the Action button: records a voice note, sends it, then adds your words under it. |
 
+**Have a Mac that stays on with your Messages?** [mac/README.md](mac/README.md) sets up an exact copy of the chat
+instead: the Mac reads Messages and draws, and the iPhone only fetches the picture. These steps are for the iPhone-only
+version.
+
 These steps are for iOS 26, where automations have their own tab. iOS 27 does a few steps differently, as listed
 under [iOS 27](#ios-27). To see which you have: **Settings → General → About → iOS Version**.
 
